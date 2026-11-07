@@ -1,0 +1,190 @@
+@media(max-width:500px){
+  .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+  .n1{
+   order: 2;
+  }
+  .n2{
+   order: 3;
+  }
+  .n3{
+   order: 1;
+  }
+  .n4{
+   order: 4;
+  }
+  .n5{
+   order: 5;
+  }
+  .section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+   .section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+    .sub-section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #education {
+    width: 460px;
+  }
+  #experience, #activity, #hobby, #language, #skill{
+    width: 460px;
+
+  }
+  .list-inside{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+  }
+  .l{
+    border: none;
+  }
+  
+  button{
+    font-size: 15px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,95 @@
+/* body {
+    margin: 0px;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+   
+    min-height: 900px;
+   
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+
+    padding: 40px
+} */
+ body{
+    min-width: 500px;
+ }
+.container-1{
+    position: relative;
+}
+ 
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.navbar a:hover{
+    border-bottom: 2px solid black;
+    font-size: 25px;
+}
+
+#info{
+    background-color: gray;
+}
+#certificate{
+    margin-top: 70px;
+    background-color: lightgray;
+    width: auto;
+}
+#certificate p{
+    text-decoration: none;
+}
+.list-inside{
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+#project strong{
+    font-size: 25px;
+
+}
+#project{
+    margin-top: 100px;
+}
+#contact i{
+    width: 50px;
+    height: 50px;
+}
+#contact a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+#contact{
+    border-top: 2px solid black;
+}
+
+
+  button{
+    font-size: 15px;
+  }
+
+
+
+
