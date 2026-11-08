@@ -91,6 +91,6 @@ document.querySelector('.check-valid-email').addEventListener('click', () =>{
     document.querySelector('.check-valid-email').style.display = 'none'
 
   } else if (!validEmail || document.querySelector('.email').value === '' ){
-    alert('Lỗi')
+    document.querySelector('.email-label').textContent = 'Lỗi'
   }
 })
