@@ -94,7 +94,6 @@ document.querySelector('.check-valid-email').addEventListener('click', () =>{
 
 
   } else if (!validEmail || document.querySelector('.email').value === '' ){
-    document.querySelector('.email-label').textContent = 'Lỗi'
     document.querySelector('.error').style.display = 'block'
   }
 })
