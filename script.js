@@ -89,8 +89,12 @@ document.querySelector('.check-valid-email').addEventListener('click', () =>{
     document.querySelector('.email').style.display = 'none'
     document.querySelector('.email-label').style.display = 'none'
     document.querySelector('.check-valid-email').style.display = 'none'
+    document.querySelector('.error').style.display = 'none'
+    document.querySelector('.email-ca-nhan').style.marginTop = '5px'
+
 
   } else if (!validEmail || document.querySelector('.email').value === '' ){
     document.querySelector('.email-label').textContent = 'Lỗi'
+    document.querySelector('.error').style.display = 'block'
   }
 })
